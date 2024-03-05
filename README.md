@@ -85,5 +85,5 @@ Slack action step is skipped because all jobs are success.
 Slack action step has been executed even if some jobs were skipped.
 
 ## Author
-[GitHub (Technote)](https://github.com/technote-space)  
+[GitHub (Technote)](https://github.com/technote-space)
 [Blog](https://technote.space)

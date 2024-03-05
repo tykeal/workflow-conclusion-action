@@ -6,7 +6,7 @@
 [jest]: https://jestjs.io/
 [code-of-conduct]: CODE_OF_CONDUCT.md
 
-When contributing to this repository, please first discuss the change you wish to make via [issue][issues] with the owners of this repository before making a change. 
+When contributing to this repository, please first discuss the change you wish to make via [issue][issues] with the owners of this repository before making a change.
 
 Please note we have a [Contributor Code of Conduct][code-of-conduct], please follow it in all your interactions with the project.
 
