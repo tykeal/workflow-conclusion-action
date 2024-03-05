@@ -1,3 +1,5 @@
+---
+# yamllint disable-line rule:truthy
 on: pull_request_target
 
 concurrency:
@@ -38,6 +40,7 @@ jobs:
     name: Manage release
     runs-on: ubuntu-latest
     timeout-minutes: 3
+    # yamllint disable-line rule:line-length
     if: "github.event.pull_request.head.user.id == github.event.pull_request.base.user.id && startsWith(github.head_ref, 'release/') && ! startsWith(github.head_ref, 'release/v')"
     steps:
       - uses: technote-space/load-config-action@v1
@@ -53,6 +56,7 @@ jobs:
     name: Check package version
     runs-on: ubuntu-latest
     timeout-minutes: 3
+    # yamllint disable-line rule:line-length
     if: "github.event.action == 'synchronize' && github.event.pull_request.head.user.id == github.event.pull_request.base.user.id && startsWith(github.head_ref, 'release/')"
     steps:
       - uses: technote-space/load-config-action@v1
@@ -95,6 +99,7 @@ jobs:
     name: Check publish
     runs-on: ubuntu-latest
     timeout-minutes: 3
+    # yamllint disable-line rule:line-length
     if: "github.event.pull_request.head.user.id == github.event.pull_request.base.user.id && startsWith(github.head_ref, 'release/')"
     steps:
       - name: Set running flag

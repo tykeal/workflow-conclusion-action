@@ -1,3 +1,5 @@
+---
+# yamllint disable-line rule:truthy
 on:
   project_card:
     types: [created, moved]

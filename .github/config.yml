@@ -1,3 +1,4 @@
+---
 # Configuration for request-info - https://github.com/behaviorbot/request-info
 
 # *Required* Comment to reply with
@@ -13,8 +14,6 @@ requestInfoDefaultTitles:
 
 # *OPTIONAL* Label to be added to Issues and Pull Requests with insufficient information given
 requestInfoLabelToAdd: "Status: More Information Needed"
-
-
 
 
 # Configuration for welcome - https://github.com/behaviorbot/welcome
@@ -36,7 +35,6 @@ newPRWelcomeComment: >
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
   :tada: Congrats on merging your first pull request! We here at behaviorbot are proud of you!
-
 
 
 # Configuration for todo - https://github.com/jasonetco/todo

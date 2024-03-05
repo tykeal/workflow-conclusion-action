@@ -1,3 +1,4 @@
+---
 'Type: Feature': ['feature/*', 'feat/*']
 'Type: Bug': fix/*
 'Type: Maintenance': ['patch/*', 'chore/*']
